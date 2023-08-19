@@ -12,7 +12,8 @@ We look at some techniques to get all transactions from an address, as well as g
 ## Installation
 
 ```bash
-git clone 
+git clone https://github.com/PatrickAlphaC/get-all-transactions 
+cd get-all-transactions
 pip install -r requirements.txt
 ```
 
@@ -26,3 +27,4 @@ For using any other python script, you'll need an `RPC_URL` environment variable
 python3 alchemy_get_events.py
 ```
 
+Or call any other python script. Feel free to edit the scripts for your needs. 
