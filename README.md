@@ -18,6 +18,8 @@ pip install -r requirements.txt
 
 To use the `alchemy` prefixed scripts, you'll need to set the `ALCHEMY_API_KEY` environment variable to your Alchemy API key.  
 
+For using any other python script, you'll need an `RPC_URL` environment variable set to your RPC URL.
+
 ## Use
 
 ```

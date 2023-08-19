@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM ethereum.traces
+WHERE
+  "from" = 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9
+  or "to" = 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9
